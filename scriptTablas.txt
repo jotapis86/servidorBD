@@ -1,0 +1,9 @@
+create table Vuelos
+(
+	aerolinea text not null,
+	numVuelo text not null,
+	fecha text not null,
+	STD text not null, 
+	ATD text,
+	primary key (aerolinea, numVuelo, fecha)
+);
